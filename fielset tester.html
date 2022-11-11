@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizing Elemnts with &lt fieldset &gt</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><em>Contact information</em></legend>
+            <form id="Contact information">
+                <table>
+                    <tr>
+                        <td>First name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Last name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="email" placeholder = 'Ex: 1234@gmail.com'></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend><em>Competition Question</em></legend>
+            How tall is the Eiffel Tower in Paris,France<br>
+            <input type = 'radio' name = 'a'>584 ft<br>
+            <input type = 'radio' name = 'a'>784 ft<br>
+            <input type = 'radio' name = 'a'>984 ft<br>
+            <input type = 'radio' name = 'a'>1184 ft<br>
+        </fieldset>
+        <fieldset>
+            <legend><em>Tiebreaker Quetion</em></legend>
+            In 25 words or less, say why you would like to win $10.000 <br>
+            <textarea cols = "80" rows="20" ></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><em>Enter competition</em></legend>
+            <input type = 'submit' value = 'Enter Competition'>
+        </fieldset>
+    </form>
+</body>
+</html>
